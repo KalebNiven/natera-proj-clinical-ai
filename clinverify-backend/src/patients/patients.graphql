@@ -1,0 +1,10 @@
+type Query {
+  patients: [Patient]
+  patient(id: ID!): Patient
+}
+
+type Patient {
+  id: Int
+  name: String
+  age: Int
+}
